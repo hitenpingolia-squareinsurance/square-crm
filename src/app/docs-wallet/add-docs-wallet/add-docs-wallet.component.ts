@@ -197,6 +197,7 @@ export class AddDocsWalletComponent implements OnInit {
   }
 
   ngOnInit() {
+  //console.log('api is calling');
     this.FileType_Status();
 
     if (this.type == "Edit") {
